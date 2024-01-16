@@ -19,6 +19,6 @@ To run the evaluation
         --model-path MODEL_PATH  \
         --question-file L+D0/pmc_vqa_nota.jsonl \
         --image-folder PMC_VQA_image_folder/ \
-        --answers-file pmcvqa.jsonl 
+        --answers-file eval_result/L+D0/pmcvqa.jsonl 
 ```
 
