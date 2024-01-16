@@ -100,7 +100,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--image-folder", type=str, default="")
     parser.add_argument("--question-file", type=str, default="L+D0/pmc_vqa_nota.jsonl")
-    parser.add_argument("--answers-file", type=str, default="pmc_vqa_nota.jsonl")
+    parser.add_argument("--answers-file", type=str, default="eval_result/L+D0/pmcvqa.jsonl")
     parser.add_argument("--conv-mode", type=str, default="vicuna_v1")
     parser.add_argument("--num-chunks", type=int, default=1)
     parser.add_argument("--chunk-idx", type=int, default=0)
