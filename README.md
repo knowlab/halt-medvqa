@@ -11,5 +11,14 @@ We used LLaVA-Med and variant models from [LLaVA-Med repository](https://github.
 ## Evaluation Code
 
 Evaluation code was downloaded from [LLaVA repository](https://github.com/haotian-liu/LLaVA).  
-Please put the code in `llava/eval/` directory. 
+Please put the `model_vqa_halt.py` code in `llava/eval/` directory. 
+
+To run the evaluation
+```
+    CUDA_VISIBLE_DEVICES=0 python -m llava.eval.model_vqa_halt \
+        --model-path MODEL_PATH  \
+        --question-file L+D0/pmc_vqa_nota.jsonl \
+        --image-folder PMC_VQA_image_folder/ \
+        --answers-file pmcvqa.jsonl 
+```
 
