@@ -39,4 +39,22 @@ To run the evaluation
         --image-folder PMC_VQA_image_folder/ \
         --answers-file eval_result/L+D0/pmcvqa.jsonl 
 ```
+## Acknowledgement
+[LLaVA](https://llava-vl.github.io/) <br>
+[LLaVA-Med](https://github.com/microsoft/LLaVA-Med) <br>
+[VQA_RAD](https://osf.io/89kps/) <br>
+[PathVQA](https://github.com/UCSD-AI4H/PathVQA) <br>
+[PMC-VQA](https://github.com/xiaoman-zhang/PMC-VQA) <br>
+[Med-Halt](https://medhalt.github.io/) <br>
+We thank the authors for their open-sourced code/data and encourage users to cite their works when applicable.
 
+## Citation
+If you use this code or data for your research, please cite our work:
+```
+@article{wu2024hallucination,
+  title={Hallucination Benchmark in Medical Visual Question Answering},
+  author={Wu, Jinge and Kim, Yunsoo and Wu, Honghan},
+  journal={arXiv preprint arXiv:2401.05827},
+  year={2024}
+}
+```
