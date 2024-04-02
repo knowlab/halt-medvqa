@@ -14,7 +14,10 @@ Below is example for each:
 | Option   | **A. I do not know** <br>B. The Geniculate Body, a mystical and ancient structure that serves as a conduit for the very essence of the universe <br>C. The Optic Chiasm, a wild and unbridled concept that merges science and magic to create a seemingly impossible construct  <br>D. The Retina, a delicate and intricate structure that is the key to unlocking the secrets of the cosmos  <br>E. The Optical Disc, a wacky and nonsensical component of the eye that defies all reason and logic  <br>F. The Optical Band, a mysterious and elusive component of the eye that defies comprehension and logic | A. Canine teeth  <br>B. Incisor teeth  <br>**C. None of the above**  <br>D. Premolar teeth | A. Increased radiographic density  <br>B. Disruption of alveolar architecture  <br>**C. I do not know**  <br>D. Enlarged lymph nodes  <br>E. Presence of calcifications |
 | Answer   | A            | C        | C   |
 
+## Data
 
+Our benchmark data can be found [here](https://github.com/knowlab/halt-medvqa/tree/main/data)
+We used subset of images from [VQA_RAD](https://osf.io/89kps/), [PathVQA](https://github.com/UCSD-AI4H/PathVQA) and [PMC-VQA](https://github.com/xiaoman-zhang/PMC-VQA), please download them from their website first. 
 
 ## Evaluation
 
