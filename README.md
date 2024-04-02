@@ -16,7 +16,7 @@ Below is example for each:
 
 ## Data
 
-Our benchmark data can be found [here](https://github.com/knowlab/halt-medvqa/tree/main/data)
+Our benchmark data can be found [here](https://github.com/knowlab/halt-medvqa/tree/main/data). 
 We used subset of images from [VQA_RAD](https://osf.io/89kps/), [PathVQA](https://github.com/UCSD-AI4H/PathVQA) and [PMC-VQA](https://github.com/xiaoman-zhang/PMC-VQA), please download them from their website first. 
 
 ## Evaluation
