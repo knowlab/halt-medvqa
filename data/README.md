@@ -10,5 +10,5 @@
 
 `prompt_data_generation.ipynb` can be used for generating the prompt data for the evaluation.  
 
-Please contact us if you require images.
+We used subset of images from [VQA_RAD](https://osf.io/89kps/), [PathVQA](https://github.com/UCSD-AI4H/PathVQA) and [PMC-VQA](https://github.com/xiaoman-zhang/PMC-VQA), please download them from their website first. 
 
